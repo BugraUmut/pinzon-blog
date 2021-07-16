@@ -1,0 +1,33 @@
+{
+  "name": "pinzon-blog",
+  "version": "1.0.0",
+  "description": "open source blog template by pinzon studios",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BugraUmut/pinzon-blog.git"
+  },
+  "keywords": [
+    "blog",
+    "open-source",
+    "nodejs"
+  ],
+  "author": "BugraUmut",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BugraUmut/pinzon-blog/issues"
+  },
+  "homepage": "https://github.com/BugraUmut/pinzon-blog#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.2",
+    "nodejs": "0.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0"
+  }
+}

@@ -1,0 +1,12 @@
+<% if (error) { %>
+ <p>Article does not exists</p>
+<% } %>
+   
+<form action="delete" method="post">
+   <div>
+       <label for="title">Title</label>
+       <input type="text" name="title" id="title" placeholder="Title">
+   </div>
+   
+   <button type="submit">Delete !</button>
+</form>

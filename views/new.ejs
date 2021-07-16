@@ -1,0 +1,16 @@
+<% if (error) { %>
+ <p>Article with same title already exists</p>
+<% } %>
+
+<form action="new" method="post">
+    <div>
+        <label for="title">Title</label>
+        <input type="text" name="title" id="title" placeholder="Title">
+    </div>
+    <div>
+        <label for="article">Article</label>
+        <textarea name="article" id="article" cols="30" rows="10"></textarea>
+    </div>
+
+    <button type="submit">Create</button>
+</form>
