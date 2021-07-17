@@ -16,7 +16,7 @@ git clone https://github.com/BugraUmut/pinzon-blog
 - Express
 - MongoDB
 
-## Usage
+## Usage
 
 Setup .env
 ```env
