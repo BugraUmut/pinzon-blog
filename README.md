@@ -19,6 +19,10 @@ git clone https://github.com/BugraUmut/pinzon-blog
 ## Usage
 
 Setup .env
+```env
+PORT=3000
+MONGODB_URL=your_mongodb_connection_url
+```
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
